@@ -1,0 +1,11 @@
+#include <WiFi.h>
+
+void setup() {
+  WiFi.mode(WIFI_AP);                             // Start ESP32 as WiFi access point
+  WiFi.softAP("🚀JARVIS Online", "12345678");    // Set name (SSID) & password
+}
+
+void loop() {
+  // Nothing needed here — it just keeps broadcasting
+}
+
